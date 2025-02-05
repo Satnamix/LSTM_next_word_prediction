@@ -5,8 +5,8 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 
-model=load_model('LSTM RNN Practice/next_word_lstm.h5')
-with open('LSTM RNN Practice/tokenizer.pickle','rb') as file:
+model=load_model('next_word_lstm.h5')
+with open('tokenizer.pickle','rb') as file:
     tokenizer=pickle.load(file)
     
 
